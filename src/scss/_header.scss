@@ -1,0 +1,39 @@
+.header_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.link_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.Rectangle {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 2.5px rgba(44, 62, 79, 0.1);
+}
+
+//this is showing when you are on the link page
+.Rectangle-2 {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #1cbacf;
+  border: solid 2.5px rgba(28, 186, 207, 0.1);
+}
+
+// this is showing when you are done filling out the page
+
+.Rectangle-2-Copy {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #2c3e4f;
+  border: solid 2.5px rgba(44, 62, 79, 0.1);
+}

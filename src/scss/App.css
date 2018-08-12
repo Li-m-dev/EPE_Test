@@ -1,0 +1,107 @@
+.Portlet {
+  width: 640px;
+  height: 439.5px;
+  background-color: #ffffff;
+  box-shadow: 0 0.5px 7.5px 0 rgba(69, 65, 78, 0.08); }
+
+.Form-placeholder {
+  width: 183px;
+  height: 18.5px;
+  opacity: 0.8; }
+
+.header_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.link_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%; }
+
+.Rectangle {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 2.5px rgba(44, 62, 79, 0.1); }
+
+.Rectangle-2 {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #1cbacf;
+  border: solid 2.5px rgba(28, 186, 207, 0.1); }
+
+.Rectangle-2-Copy {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #2c3e4f;
+  border: solid 2.5px rgba(44, 62, 79, 0.1); }
+
+.section_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.Schedule-K-1 {
+  width: 52.5px;
+  height: 10.5px;
+  font-family: Roboto;
+  font-size: 9px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2c3e4f; }
+
+.Form-1065 {
+  width: 33px;
+  height: 7px;
+  font-family: Roboto;
+  font-size: 6px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2c3e4f; }
+
+.Part-II-Information {
+  width: 97px;
+  height: 7px;
+  font-family: Roboto;
+  font-size: 6px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2c3e4f; }
+
+.Partners-Share-of-I {
+  width: 206px;
+  height: 10.5px;
+  font-family: Roboto;
+  font-size: 9px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2c3e4f; }
+
+.Full-Name {
+  width: 89.5px;
+  height: 10.5px;
+  font-family: Roboto;
+  font-size: 7px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #575962; }

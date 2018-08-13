@@ -1,56 +1,29 @@
-.section_header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.layer {
+  width: 23px;
+  height: 23.5px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  -webkit-text-stroke: 0.5px #2c3e4f;
 }
 
-.Schedule-K-1 {
-  width: 52.5px;
-  height: 10.5px;
+.layer2 {
+  width: 23px;
+  height: 23.5px;
   font-family: Roboto;
-  font-size: 9px;
+  font-size: 20px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
   color: #2c3e4f;
-}
-.Form-1065 {
-  width: 33px;
-  height: 7px;
-  font-family: Roboto;
-  font-size: 6px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #2c3e4f;
-}
-.Part-II-Information {
-  width: 97px;
-  height: 7px;
-  font-family: Roboto;
-  font-size: 6px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #2c3e4f;
-}
-.Partners-Share-of-I {
-  width: 206px;
-  height: 10.5px;
-  font-family: Roboto;
-  font-size: 9px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #2c3e4f;
+  -webkit-text-stroke: 0.5px #2c3e4f;
 }
 
 .Full-Name {
@@ -64,4 +37,259 @@
   line-height: 1.5;
   letter-spacing: normal;
   color: #575962;
+}
+
+.item {
+  .Fill {
+    width: 198px;
+    height: 35.5px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: solid 0.5px #ebedf2;
+  }
+}
+
+.General-partner-or-L {
+  width: 150px;
+  height: 10.5px;
+  font-family: Roboto;
+  font-size: 7px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #575962;
+}
+
+.Limited-partner-or-o {
+  width: 130px;
+  height: 10.5px;
+  font-family: Roboto;
+  font-size: 7px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #575962;
+}
+.Radio {
+  width: 9px;
+  height: 9px;
+  border-radius: 4.5px;
+  background-color: #ffffff;
+  border: solid 0.5px #dfe2ea;
+}
+.Radio:checked {
+  width: 9px;
+  height: 9px;
+  border-radius: 4.5px;
+  background-color: #ffffff;
+  border: solid 2px #1cbacf;
+}
+.Domestic-partner {
+  width: 80px;
+  height: 10.5px;
+  font-family: Roboto;
+  font-size: 7px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #575962;
+}
+.Foreign-partner {
+  width: 80px;
+  height: 10.5px;
+  font-family: Roboto;
+  font-size: 7px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #575962;
+}
+.entity-box {
+  margin-top: 7.5px;
+  margin-bottom: 140px;
+}
+
+.If-this-partner-is-a {
+  width: 174.5px;
+  height: 21px;
+  font-family: Roboto;
+  font-size: 7px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #575962;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: row;
+  .form-right {
+    margin-left: 10px;
+  }
+}
+
+.Partners-share-of-p {
+  width: 126.5px;
+  height: 10.5px;
+  font-family: Roboto;
+  font-size: 7px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #575962;
+}
+.plc-box {
+  p {
+    width: 15px;
+    height: 10.5px;
+    font-family: Roboto;
+    font-size: 7px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #575962;
+    margin-right: 20px;
+  }
+}
+.plc-box-sub {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 4.5px;
+  .Fill {
+    width: 170px;
+    height: 18.5px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: solid 0.5px #c1c2c5;
+    // margin-right: 4.5px;
+    display: flex;
+  }
+}
+.percentage {
+  width: 5.5px;
+  height: 10.5px;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #17181a;
+  margin: 5px;
+}
+
+.liability-box {
+  p {
+    width: 213.5px;
+    height: 10.5px;
+    font-family: Roboto;
+    font-size: 7px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #575962;
+  }
+  .liability-box-sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8.5px;
+    .Fill {
+      width: 145px;
+      height: 18.5px;
+      border-radius: 2px;
+      background-color: #ffffff;
+      border: solid 0.5px #a4a4a7;
+      display: flex;
+    }
+  }
+}
+
+.dollarSign {
+  width: 4px;
+  height: 10.5px;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  //   color: #575962;
+  margin: 4px;
+}
+
+.capital-box {
+  p {
+    width: 213.5px;
+    height: 10.5px;
+    font-family: Roboto;
+    font-size: 7px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #575962;
+  }
+  .capital-box-sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4px;
+    .Fill {
+      display: flex;
+      width: 145px;
+      height: 18.5px;
+      border-radius: 2px;
+      background-color: #ffffff;
+      border: solid 0.5px #ebedf2;
+    }
+  }
+}
+
+.check-boxes {
+  margin-top: 5px;
+  font-size: 7px;
+  color: #575962;
+  display: flex;
+  justify-content: space-between;
+  .check-boxes-sub {
+    display: flex;
+    align-items: center;
+    input {
+      width: 9px;
+      height: 9px;
+    }
+  }
+}
+
+.contribute-box {
+  font-size: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  .contribute-box-sub {
+    display: flex;
+    align-items: center;
+  }
 }

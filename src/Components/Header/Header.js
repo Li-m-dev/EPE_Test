@@ -20,6 +20,25 @@ class Header extends Component {
           </Link>
         </div>
         <button>Continue</button>
+
+        <div className="section_header">
+          <div>
+            <h3 className="Schedule-K-1">Schedule K-1</h3>
+            <span className="Form-1065">(Form 1065)</span>
+          </div>
+          <div>
+            <h3 className="Partners-Share-of-I">
+              Partner's Share of Income, Deductions, Credits, etc.
+            </h3>
+            <span className="Part-II-Information">
+              Part II :Information About the Partner
+            </span>
+          </div>
+          <div className="year">
+            <span className="layer">20</span>
+            <span className="layer2">17</span>
+          </div>
+        </div>
       </div>
     );
   }

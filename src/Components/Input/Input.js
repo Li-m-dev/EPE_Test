@@ -5,10 +5,10 @@ const Input = props => {
     <div className="form-group">
       <input
         className="Form-placeholder"
-        // id={props.name}
         name={props.name}
         type={props.type}
         value={props.value}
+        placeholder={props.placeholder}
         onChange={props.handleChange}
       />
     </div>

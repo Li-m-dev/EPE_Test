@@ -9,11 +9,9 @@ class App extends Component {
   render() {
     return (
       <HashRouter>
-        <div className="App">
-          <div className="Portlet">
-            <Header />
-            {routes}
-          </div>
+        <div className="Portlet">
+          <Header />
+          {routes}
         </div>
       </HashRouter>
     );

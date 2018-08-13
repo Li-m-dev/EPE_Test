@@ -31,11 +31,17 @@ class PartIII extends Component {
     // console.log(e.target.value);
     this.setState({ [e.target.name]: e.target.value });
   };
+
+  handleSubmit = () => {
+    alert("Thank you submitting you form");
+  };
   render() {
     console.log(this.state);
     return (
       <Fragment>
-        <button className="ctrl-btn"> Submit </button>
+        <button className="ctrl-btn" onClick={this.handleSubmit}>
+          Submit
+        </button>
         <div className="part3-content">
           <div className="part3-left">
             <div className="part3-items">

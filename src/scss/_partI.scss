@@ -265,3 +265,13 @@
     align-items: center;
   }
 }
+
+@media (max-width: 776px) {
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    .form-right {
+      margin-left: 10px;
+    }
+  }
+}

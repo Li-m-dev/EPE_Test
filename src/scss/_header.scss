@@ -44,6 +44,8 @@
   flex-direction: row;
   justify-content: space-between;
   margin-top: 10.5px;
+  margin-right: 5px;
+  align-items: center;
 }
 
 .Schedule-K-1 {
@@ -124,4 +126,17 @@
   letter-spacing: normal;
   color: #2c3e4f;
   -webkit-text-stroke: 0.5px #2c3e4f;
+}
+
+@media (max-width: 776px) {
+  .section_header {
+    display: none;
+  }
+  .link_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // width: 50%;
+    align-items: flex-start;
+  }
 }

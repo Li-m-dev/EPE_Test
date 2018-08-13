@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import Input from "../Input/Input";
 
 class PartI extends Component {
@@ -54,6 +55,9 @@ class PartI extends Component {
     console.log(this.state);
     return (
       <div>
+        <Link to="/part2">
+          <button className="ctrl-btn">Continue</button>
+        </Link>
         <div className="form-content">
           <div className="form_left">
             <div className="item">

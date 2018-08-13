@@ -19,14 +19,14 @@ class Header extends Component {
             <div>Part III</div>
           </Link>
         </div>
-        <button>Continue</button>
+        {/* <button>Continue</button> */}
 
         <div className="section_header">
-          <div>
+          <div className="section_header_sub">
             <h3 className="Schedule-K-1">Schedule K-1</h3>
             <span className="Form-1065">(Form 1065)</span>
           </div>
-          <div>
+          <div className="section_header_sub">
             <h3 className="Partners-Share-of-I">
               Partner's Share of Income, Deductions, Credits, etc.
             </h3>
@@ -34,7 +34,7 @@ class Header extends Component {
               Part II :Information About the Partner
             </span>
           </div>
-          <div className="year">
+          <div className="year section_header_sub">
             <span className="layer">20</span>
             <span className="layer2">17</span>
           </div>

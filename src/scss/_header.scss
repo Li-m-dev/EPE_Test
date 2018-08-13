@@ -21,7 +21,7 @@
 }
 
 //this is showing when you are on the link page
-.Rectangle-2 {
+.Rectangle:focus {
   width: 8px;
   height: 8px;
   border-radius: 4px;
@@ -31,7 +31,7 @@
 
 // this is showing when you are done filling out the page
 
-.Rectangle-2-Copy {
+.Rectangle:checked {
   width: 8px;
   height: 8px;
   border-radius: 4px;
@@ -43,6 +43,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 10.5px;
 }
 
 .Schedule-K-1 {
@@ -92,4 +93,35 @@
   line-height: normal;
   letter-spacing: normal;
   color: #2c3e4f;
+}
+.section_header_sub {
+  border: solid 0.5px #e5e7e9;
+  // padding: 5px 56px;
+}
+.layer {
+  width: 23px;
+  height: 23.5px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  -webkit-text-stroke: 0.5px #2c3e4f;
+}
+
+.layer2 {
+  width: 23px;
+  height: 23.5px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2c3e4f;
+  -webkit-text-stroke: 0.5px #2c3e4f;
 }
